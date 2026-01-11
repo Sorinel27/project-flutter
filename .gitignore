@@ -35,6 +35,10 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Local secrets / dart-defines
+dart_defines*.json
+!dart_defines.dev.json.example
+
 # Symbolication related
 app.*.symbols
 
